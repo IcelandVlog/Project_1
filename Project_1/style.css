@@ -1,0 +1,297 @@
+/* Header Section css Start */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fff;
+    font-family: sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    padding: 0 40px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div a {
+    text-decoration: none;
+    color: black;
+    margin-left: 40px;
+    font-weight: bold;
+}
+
+div a:hover {
+    color: blue;
+}
+
+@media (max-width: 500px) {
+
+ div a {
+    margin-left: 20px;
+ }
+
+ header {
+    padding: 0 20px;
+ }
+
+
+}
+/* Header Section css End */
+
+/* Main Section css Start */
+main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    width: 89%;
+    margin-left: 8%;
+}
+
+.title{
+    column-gap: 0px;
+    line-height: 2.1;
+}
+
+.title h1{
+    font-size: 40px;
+}
+
+.title p{
+    font-size: 13px;
+}
+
+.title button{
+    padding: 10px 30px;
+    font-size: 14px;
+    background-color: black;
+    color: #fff;
+    margin-top: 20px;
+}
+.main_img_left img{
+    width: 360px;
+}
+
+/* @media (max-width: 1600px) {
+    .main_img_left img{
+    width: 360px;
+    margin-right: 120px;
+}
+} */
+
+@media (max-width: 750px) {
+
+main{
+    display: inline;
+    align-items: center;
+    text-align: center;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    margin-top: 50px;
+}
+.title h1{
+    font-size: 35px;
+}
+
+}
+
+/* Main Section css End */
+/* Ssection 1 Start css */
+
+.img_line{
+    display: grid;
+    width: 100%;
+    max-width: 1500px;
+    grid-template-columns: repeat(auto-fit, minmax(120px,1fr));
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 30px;
+}
+
+.img_line img{
+    width: 100%;
+    max-width: 100px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+#apple{
+    width: 40px;
+}
+#adidas{
+    width: 60px;
+}
+
+/* Ssection 1 End css */
+/* Ssection 2 Start css */
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 250px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.box{
+    width: 100%;
+    text-align: center;
+    max-width: 270px;
+}
+@media (max-width: 1300px){
+    .box img{
+        width: 80px;
+    }
+    .box h2{
+        font-size: 20px;
+    }
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+}
+
+
+/* Ssection 2 End css */
+/* Ssection 3 Start css */
+
+.latest_work_section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 30px;
+    width: 100%;
+    max-width: 1400px;
+    justify-content: center;
+    align-items: center;
+}
+.work_text{
+    text-align: center;
+    display: block;
+    margin-top: 30px;
+}
+
+.latest_work_box img{
+    width: 100%;
+    max-width: 350px;
+}
+@media (max-width:1200px){
+.latest_work_box img{
+    width: 100%;
+    max-width: 250px;
+}
+}
+
+/* Section 3 End css */
+/* Section 4 Start css */
+.Testimonial{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.div_img_Testimonial{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 150px;
+}
+.man_img_con{
+    width: 270px;
+    background-color: rgb(241, 245, 243);
+    padding: 25px;
+    height: 200px;
+}
+.img_img{
+    display: flex;
+    margin-top: 35px;
+    width: 50px;
+    height:50px;
+}
+.text_text{
+    font-size: 14px;
+    color: rgb(83, 80, 76);
+}
+.div_div{
+    display: inline-block;
+}
+@media (max-width: 700px){
+    .div_img_Testimonial{
+    margin-top: 30px;
+    width: 100%;
+    gap: 50px;
+}
+}
+/* Section 4 End css */
+/* Section 5 Start css */
+
+.last_section{
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    line-height: 1.9;
+    align-items: center;
+}
+.text_box{
+    width: 50%;
+    max-width: 490px;
+    line-height: 1.8;
+}
+.contact_box{
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+}
+.social_links_img{
+    margin-top: 15px;
+}
+.text_field{
+    display: block;
+    padding: 10px 35px;
+    background-color: rgb(241, 245, 243);
+    border: none;
+}
+.text_field1{
+    display: block;
+    padding: 10px 35px;
+    background-color: rgb(241, 245, 243);
+    border: none;
+    margin-top: 10px;
+}
+.submit_btn{
+    padding: 10px 30px;
+    background-color: black;
+    color: #fff;
+    display: block;
+    margin-top: 10px;
+}
+
+/* Section 5 End css */
